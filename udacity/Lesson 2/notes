@@ -1,0 +1,30 @@
+1
+data is important because it helps to understand the world  
+data and data types are the building blocks of any programming language beacuse they help us organize information and determine how our programs will run   
+it's important to be aware of what types of data you're using and when it's appropriate  to use each type
+
+2
+Numbers
+Airthmetic Operations
+Comparing numbers
+
+4
+commnets - for understanding code after a long term for self or for others too to improve code readability 
+//using // for single line
+/*
+multiline
+comment
+*/
+
+6
+strings
+"hello" + 5*10
+is hello50
+
+
+7
+variables
+with variables, you no longer need to work with one-time-use data
+
+
+
