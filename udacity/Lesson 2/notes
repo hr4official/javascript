@@ -25,6 +25,32 @@ is hello50
 7
 variables
 with variables, you no longer need to work with one-time-use data
+if (haveEnrolledInCourse){ 
+    console.log("Welcome "+studentName+" to Udacity!"); // Will run only if haveEnrolledInCourse is true
+}
+
+19
+Null,Undefined, and NaN
+what is NaN?
+NaN stands for "Not-A-Number" and it's often returned indicating an error with number operations. For instances, if you wrote some code that perfrormed a math calculation, and the calculation failed to produce a valid number, NaN might be returned.
 
 
 
+20
+Equality
+type conversion
+All of the above three evaluate to true. The reason for such interesting outcomes is Type Conversion. In the case of regular comparison, the operands on either side of the == operator are first converted to numbers, before comparison. Therefore, a ' ', false, and 0 are all considered equal. Similarly, a '1' and 1 are also considered equal. If we don't want to convert the operands, before comparison, we have to use a strict comparison ===
+
+Implicit type coercion
+
+JavaScript is known as a loosely typed language.
+
+Basically, this means that when you’re writing JavaScript code, you do not need to specify data types. Instead, when your code is interpreted by the JavaScript engine it will automatically be converted into the "appropriate" data type. This is called implicit type coercion and you’ve already seen examples like this before when you tried to concatenate strings with numbers.
+
+"julia" + 1
+
+    Returns: "julia1"
+
+In this example, JavaScript takes the string "julia" and adds the number 1 to it resulting in the string "julia1". In other programming languages, this code probably would have returned an error, but in JavaScript the number 1 is converted into the string "1" and then is concatenated to the string "julia".
+
+DEFINITION: A strongly typed language is a programming language that is more likely to generate errors if data does not closely match an expected type. Because JavaScript is loosely typed, you don’t need to specify data types; however, this can lead to errors that are hard to diagnose due to implicit type coercion. 
