@@ -2,12 +2,19 @@
 function day_of_week(day){
     switch(day){
         case 1: console.log("Monday");
+                break;
         case 2: console.log("Tuesday");
+                break;
         case 3: console.log("Wednesday");
+                break;
         case 4: console.log("Thursday");
+                break;
         case 5: console.log("Friday");
+                break;
         case 6: console.log("Saturday");
+                break;
         case 7: console.log("Sunday");
+                break;
         default: console.log("Invalid day of week!"); 
     }
 }
@@ -16,6 +23,8 @@ function day_of_week(day){
 Note - on using of console.log while switch case find 
 the case it will start printing from that point to the end point so 
 below shown return will used performed in mozilla console 
+
+if dont won't that to happened simple we can break the statement from that case using break statement 
 */
 
 
