@@ -7,6 +7,7 @@ function day_of_week(day){
         case 5: return "Friday";
         case 6: return "Saturday";
         case 7: return "Sunday";
+        default: return "Invalid day of week!"
     }
 }
 day_of_week(7)
