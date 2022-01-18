@@ -1,11 +1,12 @@
 # javascript
-
+# important js links 
+https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 
 JavaScript and Java are completely different languages, both in concept and design.
 
 JavaScript was invented by Brendan Eich in 1995
 
-JavaScript was previously used mainly for making webpages interactive such as form validation, animation, etc. Nowadays, JavaScript is also used in many other areas such as server-side development, mobile app development and so on.
+JavaScript was previously used mainly for making webpages interactive such as fhttps://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLDorm validation, animation, etc. Nowadays, JavaScript is also used in many other areas such as server-side development, mobile app development and so on.
 
 Because of its wide range of applications, you can run JavaScript in several ways:
 
